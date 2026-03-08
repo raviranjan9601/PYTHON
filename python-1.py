@@ -4,6 +4,8 @@
 a = int(input("Enter a Number: "))
 b = int(input("Enter a Number: "))
 
-sum = a + b
+# sum = a + b
 
-print(sum)
+# print(sum)
+
+print("\nsum of your number is:\n", a + b)
