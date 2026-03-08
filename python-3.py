@@ -1,16 +1,11 @@
-# comprasion operator / relational operator
+# task 3
+# write a program to input 2 floating numbers & print there average.
 
-a = 15
-b = 10
+avg = float(input("Enter a number: "))
+avg2 =  float(input("Enter a number: "))
 
-print(a == b)
+# average = (avg + avg2) / 2
 
-print(a != b)
+# print(average)
 
-print(a > b)
-
-print(a < b)
-
-print(a <= b)
-
-print(a >= b)
+print("average of your number: ", (avg + avg2) / 2 )
