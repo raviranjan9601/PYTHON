@@ -1,19 +1,12 @@
-# assignment operator
+# task 4 
+# write a program to input 2 int numbers, A and B.
+# print true if a is grater then or equal to b. if not print false.
 
-a = 15
+num1 = int(input("Enter a Number: "))
+num2 = int(input("Enter a NUmber: "))
 
-# a = a + 10
+# comprasion = num1 >= num2
 
-# a += 10
+# print(comprasion)
 
-# a -= 10
-
-# a *= 10
-
-# a /= 10
-
-# a //= 10
-
-# a **= 10
-
-print(a)
+print( num1 >= num2)
