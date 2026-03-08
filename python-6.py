@@ -3,4 +3,4 @@
 name = input("Enter your name: ")
 
 print(name)
-print(len(name))
+print("Lenth of your name is : ",len(name))
