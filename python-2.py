@@ -3,6 +3,8 @@
 
 area = float(input("Enter a number to find area of Squre : "))
 
-squre = area * area 
+# squre = area * area 
 
-print(squre)
+# print(squre)
+
+print("area of a squre: ", area * area)
