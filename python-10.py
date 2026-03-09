@@ -12,6 +12,7 @@ elif(num2 > num1 and num2 > num3):
 
 elif(num3 > num2 and num3 > num1):
     print("third number is grater", num3)
+
 else:
     print("Some thing Wrong")
 
