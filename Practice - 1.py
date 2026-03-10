@@ -1,12 +1,26 @@
-# Takes 5 numbers from the user and store in a list.
+# TASK 1:
+# --List Input Program--
+# Write a program that:
+# Takes 5 numbers from the user
+# Stores them in a list
+# Prints:
+# Largest number
+# Smallest number
+# Sum of numbers
+list1 = []
 
-num1 = []
-num1.extend(input("Enter 5 number to store: ").split())
+list1.append(int(input("enter a number:")))
+list1.append(int(input("enter a number:")))
+list1.append(int(input("enter a number:")))
+list1.append(int(input("enter a number:")))
+list1.append(int(input("enter a number:")))
 
-# print(num1)
 
 
-# this is work but make list under list
-# num1.append(input("Enter a number: ").split())
+print(list1)
 
-print(num1)
+list1.sort()
+
+print("Largest number of the list : ",list1[-1])
+print("Largest number of the list : ",list1[0])
+print("Largest number of the list : ", sum(list1))
