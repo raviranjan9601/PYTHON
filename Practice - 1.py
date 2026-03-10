@@ -7,20 +7,33 @@
 # Largest number
 # Smallest number
 # Sum of numbers
-list1 = []
 
-list1.append(int(input("enter a number:")))
-list1.append(int(input("enter a number:")))
-list1.append(int(input("enter a number:")))
-list1.append(int(input("enter a number:")))
-list1.append(int(input("enter a number:")))
+# list1 = []
+
+# list1.append(int(input("enter a number:")))
+# list1.append(int(input("enter a number:")))
+# list1.append(int(input("enter a number:")))
+# list1.append(int(input("enter a number:")))
+# list1.append(int(input("enter a number:")))
 
 
 
-print(list1)
+# print(list1)
 
-list1.sort()
+# list1.sort()
 
-print("Largest number of the list : ",list1[-1])
-print("Largest number of the list : ",list1[0])
-print("Largest number of the list : ", sum(list1))
+# print("Largest number of the list : ",list1[-1])
+# print("Largest number of the list : ",list1[0])
+# print("Largest number of the list : ", sum(list1))
+
+numbers = [
+    int(input("Enter number 1: ")),
+    int(input("Enter number 2: ")),
+    int(input("Enter number 3: ")),
+    int(input("Enter number 4: ")),
+    int(input("Enter number 5: "))
+]
+
+print("Largest:", max(numbers))
+print("Smallest:", min(numbers))
+print("Sum:", sum(numbers))
